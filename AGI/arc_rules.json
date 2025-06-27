@@ -1,0 +1,54 @@
+{
+  "rules": [
+    {
+      "name": "tile_repeat",
+      "matcher": {
+        "type": "size",
+        "params": { "grid_width": 2, "grid_height": 2 }
+      },
+      "action": {
+        "type": "tile_repeat",
+        "params": {
+          "tile_w": 2,  "tile_h": 2,
+          "out_w": 6,   "out_h": 6,
+          "flip_by_row": true,
+          "flip_by_col": false
+        }
+      }
+    },
+    {
+      "name": "fill_value_7",
+      "matcher": {
+        "type": "feature",
+        "params": {
+          "attr": "value",
+          "op": "eq",
+          "value": 7
+        }
+      },
+      "action": {
+        "type": "flood_fill",
+        "params": {
+          "fill_value": 1
+        }
+      }
+    },
+    {
+      "name": "masked_tile_repeat_3",
+      "matcher": {
+        "type": "size",
+        "params": { "grid_width": 3, "grid_height": 3 }
+      },
+      "action": {
+        "type": "masked_tile_repeat",
+        "params": {
+          "tile_w": 3, "tile_h": 3,
+          "out_w": 9,  "out_h": 9,
+          "mask_attr": "value",
+          "mask_op": "neq",
+          "mask_val": 0
+        }
+      }
+    }
+  ]
+}

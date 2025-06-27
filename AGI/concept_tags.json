@@ -1,0 +1,23 @@
+{
+  "0b148d64": [
+    "odd_man_out",
+    "same_color_out",
+    "regions"
+  ],
+  "0d3d703e": [
+    "arbitrary_mapping",
+    "deterministic_mapping",
+    "elementwise_mapping"
+  ],
+  "0dfd9992": [
+    "tesselation",
+    "occlusion",
+    "occlusion_removal"
+  ],
+  "0e206a2e": [
+    "formation",
+    "marking",
+    "skeleton",
+    "guide"
+  ]
+}
