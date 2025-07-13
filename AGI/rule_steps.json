@@ -1,0 +1,4 @@
+{
+  "007bbfb7": "fungibilize_strategy: (shape discrepancy -> integer shape scale -> rescale smaller grid (facts_add: rescale) -> hint: default to grid assumption) -> object_strategy: (extract graphs) -> homology_strategy: (i->o) compare graph -> coverage_strategy: all objects covered -> transformation_strategy(facts): extract_graph, rescale_input, apply_selected_grid_parse, paste_graph_per_grid",
+  "00d62c1b": "fungibilize_strategy: no_op, parsing_strategy: 8-connectivity, homology_strategy: address, transformation_strategy: addition_feature=is_surrounded_by"
+}

@@ -1,15 +1,19 @@
 {
   "0b148d64": [
+    "grid problem",
     "odd_man_out",
     "same_color_out",
     "regions"
   ],
   "0d3d703e": [
+    "transformation",
+    "color mapping rule",
     "arbitrary_mapping",
     "deterministic_mapping",
     "elementwise_mapping"
   ],
   "0dfd9992": [
+    "implied_tiling",
     "tesselation",
     "occlusion",
     "occlusion_removal"
@@ -19,5 +23,90 @@
     "marking",
     "skeleton",
     "guide"
+  ],
+  "007bbfb7": [
+    "self_similarity",
+    "apply_mask"
+  ],
+  "00d62c1b": [
+    "contained",
+    "fill_contained"
+  ],
+  "017c7c7b": [
+    "interlock_tile",
+    "stack",
+    "interlock",
+    "tile"
+  ],
+  "025d127b": [
+    "color",
+    "constant shear"
+  ],
+  "045e512c": [
+    "additive",
+    "tile",
+    "color-consistent",
+    "8-oriented tiling",
+    "vector."
+  ],
+  "0520fde7": [
+    "grid problem",
+    "intersection operation",
+    "combination problem"
+  ],
+  "05269061": [
+    "regular tiling",
+    "8-directional extension"
+  ],
+  "05f2a901": [
+    "transformation problem",
+    "gravity",
+    "color-specific behavior"
+  ],
+  "06df4c85": [
+    "tiling problem",
+    "connective",
+    "sharing row or column rule"
+  ],
+  "08ed6ac7": [
+    "transformation",
+    "color",
+    "derive rule",
+    "object size maps to color"
+  ],
+  "09629e4f": [
+    "grid problem",
+    "comparison rule",
+    "intersect outputs in boolean"
+  ],
+  "0962bcdd": [
+    "add",
+    "color-canonical inverse graph addition",
+    "8-connectivity"
+  ],
+  "0a938d79": [
+    "tile",
+    "extend",
+    "row",
+    "column"
+  ],
+  "0ca9ddb6": [
+    "addition problem",
+    "compare output"
+  ],
+  "10fcaaa3": [
+    "grid problem",
+    "addition problem",
+    "8-connective"
+  ],
+  "11852cab": [
+    "rotational_symmetry",
+    "tiling"
+  ],
+  "1190e5a7": [
+    "grid_problem",
+    "canonicalized_lists",
+    "adjacency",
+    "ranking"
   ]
 }

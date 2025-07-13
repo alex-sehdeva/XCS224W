@@ -1,0 +1,23 @@
+{
+  "007bbfb7": "Tile input as a black-dominant mask to itself in sub grids.",
+  "017c7c7b": "concatenate input grid to itself vertically but using the first available interlocking motif",
+  "025d127b": "Parse into separate foreground objects based on color.  Translate top and left regions of object by one square to the right while holding bottom and right portions constant. 8-connected entities with distinct colors",
+  "045e512c": "Parse into objects by color.  Largest object becomes the reference.  Smaller objects clone the shape of the reference while retaining color and add copies to the grid extending in the direction relative to the reference, with equal spacing between new objects as given in the input grid.",
+  "0520fde7": "Parse input grid into two separate equal sized grids.  Intersect the grids together with black as false and other color as true.  Output grid is intersection result with orange color.",
+  "05269061": "Parse input into foreground object and background object.  Tile foreground object to span the remaining grid with overlapping so that foreground color is never changed by union.  Final pattern is repeating three alternating color of diagonal lines.",
+  "05f2a901": "Translate more irregular object, which is also the orange object, towards more regular object in the single dimension of largest distance between the two objects, until the objects are touching.",
+  "06df4c85": "Add same color grid elements to connect same color input items that are on same rank or same column",
+  "08ed6ac7": "input is unequal length bars.  color bars in increasing length as brown, green, orange, blue.",
+  "09629e4f": "Input is a grid of subgrids divided by a single width border.  Only one of the subgrids has a colored center element.  Choose that subgrid and scale it up to display it as a single output grid with same total resolution as the input grid.",
+  "0962bcdd": "Extend objects to 5 x 5 extent using diagonal extension of center node and horizontal and vertical extension of non center nodes",
+  "00d62c1b": "Pixel painting task using is contained concept and 8-connectivity",
+  "0a938d79": "extend input node across grid in direction that doesn't interfere with other node extension. tile this using consistent spacing.",
+  "0b148d64": "separate into subgrids and use the subgrid that is a different color from the other subgrids",
+  "0ca9ddb6": "compare outputs to understand distinct set of output patterns.  address homology from input to output, if no rule, no transformation.",
+  "0d3d703e": "derive color mapping rule by looking at consistency among input colors and address homologous output colors.",
+  "0dfd9992": "fill in occluded regions using implied tiling",
+  "0e206a2e": "contiguous objects translate to pair up with homologous subset objects.",
+  "10fcaaa3": "add 8-connected blue nodes and tile to span.",
+  "11852cab": "graph symmetric tiling based on variable.  The variable is the symmetry-breaking pixel.",
+  "1190e5a7": "obtain the subgrid that is adjacent to the largest subgrid along its shortest axis."
+}
