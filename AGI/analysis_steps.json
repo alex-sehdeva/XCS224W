@@ -1,0 +1,15 @@
+{
+  "007bbfb7": "exact color and approximate shape homology, self-similarity, run_mask",
+  "00d62c1b": "exact shape and close color homology, coloring in, color in interior",
+  "017c7c7b": "approximate shape homology, input color homology, output color homology, tiling look",
+  "025d127b": "color homology, approximate shape homology, pixelwise shape difference, partial shape difference has cross example homology",
+  "045e512c": "color homology, partial object homology, additive transformation, additions look like tiles, check spacing",
+  "0520fde7": "grid problem, binary operation, cross input color homology, cross output color homology, attempt intersection operation",
+  "05269061": "input is part of output, output has repeating pattern, input pattern is complete except for extension, repeat input pattern with diagonal extension",
+  "05f2a901": "total pixel shape and color homology implies translation problem.  orange shape always moves, movement is always towards other shape",
+  "06df4c85": "output grid has more items, output grid looks more connected, only ell shapes are allowed",
+  "08ed6ac7": "exact shape homology, more colors in output, input color homology, output color homology, size difference exists, size difference corresponds to color assignment",
+  "2013d3e2": "output looks partial, output has color arrangement homology, grid problem, select trimmed top left eighth of input object",
+  "2204b7a8": "address homology, more colors in output means add color rule, distance homology in color groups in output",
+  "22168020": ""
+}

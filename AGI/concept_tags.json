@@ -108,5 +108,23 @@
     "canonicalized_lists",
     "adjacency",
     "ranking"
-  ]
+  ],
+  "178fcbfb": [
+    "layering",
+    "occlusion",
+    "extension",
+    "color_specified"
+  ],
+  "1a07d186": [
+    "gravity",
+    "color_determination"
+  ],
+  "1b2d62fb": [
+    "intersection",
+    "color_inverse_object_parsing"
+  ],
+  "1b60fb0c": [],
+  "2013d3e2": [],
+  "2204b7a8": [],
+  "22168020": []
 }

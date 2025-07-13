@@ -1,4 +1,19 @@
 {
-  "007bbfb7": "fungibilize_strategy: (shape discrepancy -> integer shape scale -> rescale smaller grid (facts_add: rescale) -> hint: default to grid assumption) -> object_strategy: (extract graphs) -> homology_strategy: (i->o) compare graph -> coverage_strategy: all objects covered -> transformation_strategy(facts): extract_graph, rescale_input, apply_selected_grid_parse, paste_graph_per_grid",
-  "00d62c1b": "fungibilize_strategy: no_op, parsing_strategy: 8-connectivity, homology_strategy: address, transformation_strategy: addition_feature=is_surrounded_by"
+  "007bbfb7": "fungibilize_strategy: (shape discrepancy -> integer shape scale -> rescale smaller grid (facts_add: rescale) -> hint: default to grid assumption) -> parsing_strategy: (extract graphs) -> homology_strategy: (i->o) compare graph -> coverage_strategy: all objects covered -> transformation_strategy(facts): extract_graph, rescale_input, apply_selected_grid_parse, paste_graph_per_grid",
+  "00d62c1b": "fungibilize_strategy: no_op, parsing_strategy: 8-connectivity, homology_strategy: address, transformation_strategy: addition_feature=is_surrounded_by",
+  "178fcbfb": "fungibility_strategy: no_op, object_parsing: contiguous, input_output_homology: row, transformation_strategy: node_to_bar, layer_by_color  ",
+  "1a07d186": "fungibility_strategy; no_op, parsing_strategy: contiguous, io_homology_strategy: row, i_homology_strategy: color, o_homology_strategy: ?, transformation_strategy: translate and delete orphans",
+  "1b2d62fb": "",
+  "1b60fb0c": "",
+  "017c7c7b": "",
+  "025d127b": "",
+  "045e512c": "",
+  "0520fde7": "",
+  "05269061": "",
+  "05f2a901": "",
+  "06df4c85": "",
+  "08ed6ac7": "",
+  "2013d3e2": "",
+  "2204b7a8": "",
+  "22168020": ""
 }

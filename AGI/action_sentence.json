@@ -19,5 +19,12 @@
   "0e206a2e": "contiguous objects translate to pair up with homologous subset objects.",
   "10fcaaa3": "add 8-connected blue nodes and tile to span.",
   "11852cab": "graph symmetric tiling based on variable.  The variable is the symmetry-breaking pixel.",
-  "1190e5a7": "obtain the subgrid that is adjacent to the largest subgrid along its shortest axis."
+  "1190e5a7": "obtain the subgrid that is adjacent to the largest subgrid along its shortest axis.",
+  "178fcbfb": "extend orange pixel vertically and green and blue pixels horizontally with green and blue bars layered above orange bar.",
+  "1a07d186": "color specific gravitation of small units towards bars",
+  "1b2d62fb": "intersect black regions and paint them in baby blue",
+  "1b60fb0c": "complete the rotational symmetry of the figure using orange painting",
+  "2013d3e2": "",
+  "2204b7a8": "color single pixels according to the closest color bar",
+  "22168020": "fill shapes across internally"
 }
